@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <form class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input class="my2" type="text" placeholder="Search..." />
+    </form>
+    <a href="./index.html"><h1><i>adalene.</i></h1></a>
+    <div class="box">
+      <div class="icon">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-pinterest"></i>
+      </div>
+      <ul>
+        <li>
+          <a href=""></a> <i class="fa-solid fa-circle-user"></i> Log in
+        </li>
+      </ul>
+      <p onclick="openMenu()">Cart (0)</p>
+      <div id="overlay" class="overlay2" onclick="closeMenu()"></div>
+      <div id="slideMenu" class="slide-menu">
+          <div class="menu-header">
+              <span class="close" onclick="closeMenu()"><i class="fa-solid fa-chevron-right"></i></span>
+              <h2>Cart</h2>
+          </div>
+          <div class="menu-content">
+              <p>Cart is empty</p>
+          </div>
+      </div>
+      <div class="burgercont">
+        <div class="burger" id="burger">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+      </div>
+    <div class="burger">
+        <ul class="burger-menu" id="burger-menu">
+            <li><a><i class="fa fa-user-circle"></i> Log In</a></li>
+            <li><a href="./shop.html">Shop All</a></li>
+            <li><a href="./story.html">Our Story</a></li>
+            <li><a href="./craft.html">Our Craft</a></li>
+            <li><a href="./card.html">Gift Card</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+    </div>
+     
+  </header>
+</div>
+  <nav>
+    <ul>
+      <li><a href="./shop.html">Shop All</a></li>
+      <li><a href="./story.html">Our Story</a></li>
+      <li><a href="./craft.html">Our Craft</a></li>
+      <li><a href="./card.html">Gift Card</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+      <section class=".mysct11">
+        <div class="collection">
+        <div class="giftcard">
+            <img src="./images/84770f_5ab1eef56c814674a7057e2e7e30ba25~mv2.jpg" alt="card">
+        </div>
+            <div class="inputbox">
+                <h1>eGift Card</h1>
+                <p class="txxxxt">$25</p>
+                <p class="txxxt">You can't go wrong with a gift card. Choose an amount and
+                write a personalized message to make this gift your own.</p>
+                <label for="">Amount</label>
+                <div class="buttons">
+                    <button>25$</button>
+                    <button>50$</button>
+                    <button class="widthh">100$</button>
+                    <button class="widthh">150$</button>
+                    <button class="widthh">200$</button>
+                </div>
+                <label for="">Quantity</label>
+                <div class="quantity">
+                  <button class="quantity-btn" onclick="decreaseQuantity()"><i class="fa-solid fa-minus"></i></button>
+                  <input type="number" id="quantity" name="quantity" min="1" value="1">
+                  <button class="quantity-btn" onclick="increaseQuantity()"><i class="fa-solid fa-plus"></i></button>
+              </div>
+                <label for="">Who's the gift card for?</label>
+                <div class="buttons2">
+                    <button>For someone else</button>
+                    <button>For myself</button>
+                </div>
+                <form class="inputbox2">
+                    <label for="email">Recipient email *</label>
+                    <input type="email">
+                    <label for="name">Recipient name</label>
+                    <input type="text">
+                    <label for="text">Delivery date</label>
+                    <input type="date">
+                    <label for="text">Message</label>
+                    <textarea></textarea>
+                    <button type="submit">Buy Now</button>
+                </form>
+            </div>
+         </div>
+      </section>
+      <footer>
+        <div class="footertxt">
+        <h1><i>adalene.</i></h1>
+        <div>
+          <p><a href="./shop.html">Shop All</a></p>
+          <p><a href="./story.html">Our Story</a></p>
+          <p><a href="./craft.html">Our Craft</a></p>
+          <p><a href="./card.html">Gift Card</a></p>
+          <p><a href="./contact.html">Contact</a></p>
+        </div>
+        <div>
+          <p>FAQ</p>
+          <p>Shipping & Returns</p>
+          <p>Store Policy</p>
+          <p>Payment Methods</p>
+          <p>Stockists</p>
+        </div>
+        <div>
+          <p>Facebook</p>
+          <p>Instagram</p>
+          <p>Twitter</p>
+          <p>Pinterest</p>
+        </div>
+        <div class="myinput">
+          <h2>JOIN US !</h2>
+          <label for="email">Email*</label>
+          <input class="my" type="email">
+          <button>Send</button>
+        </div>
+      </div>
+      <p class="tttttt">©2035 by adalene. Powered and secured by Wix</p>
+      </footer>
+    </main>
+      <script src="./main.js"></script>
+</body>
+</html>

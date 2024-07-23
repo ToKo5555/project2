@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  </head>
+  <body>
+    <header>
+      <form class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="my2" type="text" placeholder="Search..." />
+      </form>
+      <a href="./index.html"><h1><i>adalene.</i></h1></a>
+      <div class="box">
+        <div class="icon">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <ul>
+          <li>
+            <a href=""></a> <i class="fa-solid fa-circle-user"></i> Log in
+          </li>
+        </ul>
+        <p onclick="openMenu()">Cart (0)</p>
+        <div id="overlay" class="overlay2" onclick="closeMenu()"></div>
+        <div id="slideMenu" class="slide-menu">
+            <div class="menu-header">
+                <span class="close" onclick="closeMenu()"><i class="fa-solid fa-chevron-right"></i></span>
+                <h2>Cart</h2>
+            </div>
+            <div class="menu-content">
+                <p>Cart is empty</p>
+            </div>
+        </div>
+        <div class="burgercont">
+          <div class="burger" id="burger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </div>
+      </div>
+      <div class="burger">
+          <ul class="burger-menu" id="burger-menu">
+            <form class="search2">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input class="my3" type="text" placeholder="Search..." />
+            </form>
+            <div class="myuser">
+              <li><a><i class="fa fa-user-circle"></i> Log In</a></li>
+            </div>
+              <li><a href="./shop.html">Shop All</a></li>
+              <li><a href="./story.html">Our Story</a></li>
+              <li><a href="./craft.html">Our Craft</a></li>
+              <li><a href="./card.html">Gift Card</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+      </div>
+       
+    </header>
+  </div>
+    <nav>
+      <a href="./index.html"><h1><i>adalene.</i></h1></a>
+      <ul>
+        <li><a href="./shop.html">Shop All</a></li>
+        <li><a href="./story.html">Our Story</a></li>
+        <li><a href="./craft.html">Our Craft</a></li>
+        <li><a href="./card.html">Gift Card</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+    <section class="mysct">
+      <div class="text">
+        <h1>CUE THE COLOR</h1>
+        <a href="./shop.html"><button>Shop the collection</button></a>
+      </div>
+    </section>
+    <section class="mysct2">
+      <h1>BEST SELLERS</h1>
+      <div class="cards">
+        <div class="card">
+          <p class="txt"><i>Best seller</i></p>
+          <a href="./cart.html"><img
+            src="./images/ea71bb_4f91ddb36f2346c9870d41f83ee4c93e~mv2_d_2487_3298_s_4_2 (1).jpg"
+            alt=""
+          /></a>
+          <p class="txt2">I'm a product</p>
+          <p class="txt3"><i>$400.00</i></p>
+        </div>
+        <div class="card ">
+          <p class="txt"><i>Best seller</i></p>
+          <img
+            src="./images/ea71bb_c9e22cba4e534026a1a7be3b15a8a648~mv2_d_2629_3487_s_4_2.jpg"
+            alt=""
+          />
+          <p class="txt2">I'm a product</p>
+          <p class="txt3"><i>$250.00</i></p>
+        </div>
+        <div class="card ">
+          <p class="txt"><i>Best seller</i></p>
+          <img
+            src="./images/ea71bb_f9b13334143b4102bc6e743068a83dd0~mv2_d_3444_4568_s_4_2.jpg"
+            alt=""
+          />
+          <p class="txt2">I'm a product</p>
+          <p class="txt3"><i>$300.00</i></p>
+        </div>
+        <div class="card ">
+          <p class="txt"><i>Best seller</i></p>
+          <img
+            src="./images/ea71bb_df1129cff14a498db09ae503498d60e6~mv2_d_2487_3298_s_4_2.jpg"
+            alt=""
+          />
+          <p class="txt2">I'm a product</p>
+          <p class="txt3"><i>$150.00</i></p>
+        </div>
+      </div>
+      <div class="button-container">
+      <a href="./bags.html"><button>Shop All Bags</button></a>
+    </div>
+    </section>
+    <section class="mysct3">
+      <div class="flexbox">
+        <div class="imgwidth">
+        <img src="./images/ea71bb_c8f5b35dd1674a38b347648acae300a2~mv2_d_3078_4139_s_4_2.jpg" alt="">
+        <div class="txttt">
+        <p class="mytxt">i'm a product</p>
+        <p class="mytxt2"><i>$100.00</i></p>
+      </div>
+      <button class="buttoon">View Detail</button>
+      </div>
+        <div class="card2">
+          <a href="./minileather.html"> MINI LEATHER GOODS</a>
+        </div>
+      </div>
+      <div class="flexbox2">
+        <div class="card3">
+          <a href="./leatherbelt.html">  LEATHER BELTS</a>
+        </div>
+        <div class="card4">
+           <img src="./images/ea71bb_a487065a9eda45c6ba662246a7631d23~mv2_d_3613_4860_s_4_2.jpg" alt="">
+           <div class="txttt">
+            <p class="mytxt">i'm a product</p>
+            <p class="mytxt2"><i>$50.00</i></p>
+           </div>
+           <button class="buttoon">View Detail</button>
+        </div>
+      </div>
+    </section>
+    <section class="mysct4">
+      <div class="imagees2">
+        <div class="txtt">
+          <h3><i>Family Owned</i></h3>
+          <h1>BRAND</h1>
+          <a href="./story.html">Read our story</a>
+        </div>
+      </div>
+      <div class="imagees3">
+        <div class="txtt">
+          <h3><i>Hand Crafted</i></h3>
+          <h1>PRODUCTS</h1>
+          <a href="./craft.html">About our leather</a>
+        </div>
+      </div>
+      <div class="imagees">
+        <div class="txtt">
+          <h3><i>Created in the</i></h3>
+          <h1>USA</h1>
+          <a href="./craft.html">Learn our process</a>
+        </div>
+      </div>
+    </section>
+    <section class="mysct5">
+      <div class="txxt">
+        <h1>FOLLOW</h1>
+        <h1>ADALENE ON INSTAGRAM</h1>
+        <a href="https://www.instagram.com/wix"><h2><i>@adaleneshop</i></h2></a>
+      </div>
+      
+      <div class="imaggg swiper">
+        <div class="swipper-slider">
+          <div class="cont-cont swiper-wrapper">
+            <div class="img-conta swiper-slide">
+              <img src="./images/11062b_70aa92e8a4b449c59a7410704ce8343b~mv2_d_1922_1912_s_2.jpg" alt="">
+            </div>
+            <div class="img-conta swiper-slide">
+              <img src="./images/11062b_f080b21fa43c41339b183f7a1b020222~mv2_d_4951_4951_s_4_2.jpg" alt="">
+            </div>
+            <div class="img-conta swiper-slide">
+              <img src="./images/11062b_47ba31f4006d49c786dca2f097df7dd9~mv2_d_3648_3648_s_4_2.jpg" alt="">
+            </div>
+            <div class="img-conta swiper-slide">
+              <img src="./images/El çantası olan kadın.jpg" alt="">
+            </div>
+            <div class="img-conta swiper-slide">
+              <img src="./images/05.jpg" alt="">
+            </div>
+            <div class="img-conta swiper-slide">
+              <img src="./images/06.jpg" alt="">
+            </div>
+            <div class="img-conta swiper-slide">
+              <img src="./images/red.jpg" alt="">
+            </div>
+            <div class="img-conta swiper-slide">
+              <img src="./images/gray.jpg" alt="">
+            </div>
+            <div class="img-conta swiper-slide">
+              <img src="./images/pink.jpg" alt="">
+            </div>
+            <div class="img-conta swiper-slide">
+              <img src="./images/first.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev clickkk"></div>
+          <div class="swiper-button-next clickkk"></div>
+        </div>
+      </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./main.js"></script>
+        <div class="myttt">
+          <h1><i>Worldwide shipping</i></h1>
+          <h1><i>Easy 30 day returns</i></h1>
+          <h1><i>12 month warranty</i></h1>
+        </div>
+    </section>
+    <footer>
+      <div class="footertxt">
+        <h1><i>adalene.</i></h1>
+        <div>
+          <p><a href="./shop.html">Shop All</a></p>
+          <p><a href="./story.html">Our Story</a></p>
+          <p><a href="./craft.html">Our Craft</a></p>
+          <p><a href="./card.html">Gift Card</a></p>
+          <p><a href="./contact.html">Contact</a></p>
+        </div>
+        <div>
+          <p>FAQ</p>
+          <p>Shipping & Returns</p>
+          <p>Store Policy</p>
+          <p>Payment Methods</p>
+          <p>Stockists</p>
+        </div>
+        <div>
+          <p>Facebook</p>
+          <p>Instagram</p>
+          <p>Twitter</p>
+          <p>Pinterest</p>
+        </div>
+        <div class="myinput">
+          <h2>JOIN US !</h2>
+          <label for="email">Email*</label>
+          <input class="my" type="email" />
+          <button>Send</button>
+        </div>
+      </div>
+    </footer>
+    <p class="tttttt">©2035 by adalene. Powered and secured by Wix</p>
+  </main>
+
+   <script src="./main.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  
+    </body>
+</html>
