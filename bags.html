@@ -9,10 +9,10 @@
 </head>
 <body>
   <header>
-    <div class="search">
+    <form class="search">
       <i class="fa-solid fa-magnifying-glass"></i>
       <input class="my2" type="text" placeholder="Search..." />
-    </div>
+    </form>
     <a href="./index.html"><h1><i>adalene.</i></h1></a>
     <div class="box">
       <div class="icon">
@@ -26,10 +26,44 @@
           <a href=""></a> <i class="fa-solid fa-circle-user"></i> Log in
         </li>
       </ul>
-      <p>Cart (0)</p>
+      <p onclick="openMenu()">Cart (0)</p>
+      <div id="overlay" class="overlay2" onclick="closeMenu()"></div>
+      <div id="slideMenu" class="slide-menu">
+          <div class="menu-header">
+              <span class="close" onclick="closeMenu()"><i class="fa-solid fa-chevron-right"></i></span>
+              <h2>Cart</h2>
+          </div>
+          <div class="menu-content">
+              <p>Cart is empty</p>
+          </div>
+      </div>
+      <div class="burgercont">
+        <div class="burger" id="burger">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
     </div>
+    <div class="burger">
+        <ul class="burger-menu" id="burger-menu">
+          <form class="search2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="my3" type="text" placeholder="Search..." />
+          </form>
+          <div class="myuser">
+            <li><a><i class="fa fa-user-circle"></i> Log In</a></li>
+          </div>
+            <li><a href="./shop.html">Shop All</a></li>
+            <li><a href="./story.html">Our Story</a></li>
+            <li><a href="./craft.html">Our Craft</a></li>
+            <li><a href="./card.html">Gift Card</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+    </div>
+     
   </header>
   <nav>
+    <a href="./index.html"><h1><i>adalene.</i></h1></a>
     <ul>
       <li><a href="./shop.html">Shop All</a></li>
       <li><a href="./story.html">Our Story</a></li>
@@ -84,6 +118,10 @@
         <p class="gridp">15 product</p>
       </div>
     </div>
+  <div class="ttxttt2">
+    <h2 class="gridh1">Bags</h2>
+    <p class="gridp">15 product</p>
+  </div>
           <div  class="grid">
             <div class="item1">
               <img src="./images/01.jpg" alt="bag">
@@ -162,36 +200,44 @@
             </div>
           </div>
       </section>
-      <div class="footertxt3">
-        <h1><i>adalene.</i></h1>
-        <div class="foootertxt">
-          <p><a href="./shop.html">Shop All</a></p>
-          <p><a href="./story.html">Our Story</a></p>
-          <p><a href="./craft.html">Our Craft</a></p>
-          <p><a href="./card.html">Gift Card</a></p>
-          <p><a href="./contact.html">Contact</a></p>
+      <footer>
+        <div class="footertxt">
+          <h1><i>adalene.</i></h1>
+          <div>
+            <ul>
+              <li><a href="./shop.html">Shop All</a></li>
+              <li><a href="./story.html">Our Story</a></li>
+              <li><a href="./craft.html">Our Craft</a></li>
+              <li><a href="./card.html">Gift Card</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>FAQ</li>
+              <li>Shipping & Returns</li>
+              <li>Store Policy</li>
+              <li>Payment Methods</li>
+              <li>Stockists</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="https://www.facebook.com/wix">Facebook</a></li>
+              <li><a href="https://www.instagram.com/wix">Instagram</a></li>
+              <li><a href="https://x.com/wix">Twitter</a></li>
+              <li><a href="https://www.pinterest.com/wixcom/">Pinterest</a></li>
+            </ul>
+          </div>
+          <div class="myinput">
+            <h2>JOIN US !</h2>
+            <label for="email">Email*</label>
+            <input class="my" type="email" />
+            <button>Send</button>
+          </div>
         </div>
-        <div>
-          <p><a href="">FAQ</a></p>
-          <p><a href="">Shipping & Returns</a></p>
-          <p><a href="">Store Policy</a></p>
-          <p><a href="">Payment Methods</a></p>
-          <p><a href="">Stockists</a></p>
-        </div>
-        <div>
-          <p><a href="https://www.facebook.com/wix">Facebook</a></p>
-          <p><a href="https://www.instagram.com/wix">Instagram</a></p>
-          <p><a href="https://x.com/wix">Twitter</a></p>
-          <p><a href="https://www.pinterest.com/wixcom/">Pinterest</a></p>
-        </div>
-        <div class="myinput">
-          <h2>JOIN US !</h2>
-          <label for="email">email*</label>
-          <input class="my" type="email">
-          <button>Send</button>
-        </div>
-      </div>
       </footer>
+      <p class="tttttt">©2035 by adalene. Powered and secured by Wix</p>
     </main>
        <script src="./main.js"></script>
 </body>

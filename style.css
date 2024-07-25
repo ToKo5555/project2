@@ -41,7 +41,6 @@ header h1 {
   color: #bc4c2a;
   font-size: 40px;
   text-align: center;
-  margin-left: 40px;
   width: 200px;
   font-weight: 400;
 }
@@ -50,7 +49,6 @@ nav h1{
   color: #bc4c2a;
   font-size: 40px;
   text-align: center;
-  margin-left: 40px;
   width: 200px;
   font-weight: 400;
 
@@ -216,6 +214,7 @@ a:hover {
   font-family: "Mukta", sans-serif;
   font-size: 17px;
   font-weight: 300;
+  cursor: pointer;
 }
 .text button:hover {
   background-color: white;
@@ -294,6 +293,7 @@ a:hover {
   font-family: "Mukta", sans-serif;
   font-size: 17px;
   font-weight: 300;
+  cursor: pointer;
 }
 .button-container{
   display: flex;
@@ -397,6 +397,7 @@ a:hover {
   border: 1px solid #bc4c2a;
   background-color: #f8f4f0;
   transform: 0.5s;
+  cursor: pointer;
 }
 .txttt:hover {
   opacity: 0;
@@ -620,13 +621,13 @@ a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   height: 400px;
-  line-height: 40px;
+  line-height: 30px;
   text-align: center;
   padding-inline: 80px;
-  margin-top: 120px;
+  margin-top: 150px;
   gap: 120px;
 }
-.footertxt ul {
+.footertxt ul li {
   font-weight: 200;
   font-family: "Mukta", sans-serif;
 }
@@ -635,7 +636,6 @@ a:hover {
 }
 .myinput {
   display: flex;
-  align-items: start;
   flex-direction: column;
 }
 .myinput label {
@@ -659,6 +659,7 @@ a:hover {
   color: #bc4c2a;
   background-color: white;
   transition: 0.5s;
+  cursor: pointer;
 }
 .myinput button:hover {
   background-color: #bc4c2a;
@@ -896,17 +897,17 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 1020px;
-  width: 100%;
+  width:100%;
+  
 }
 .giftcard {
   flex: 1;
-  overflow: hidden;
   width: 420px;
   height: 300px;
-  position: relative;
-  left: 18%;
-  top: -30%;
+  display: flex;
+  justify-content:flex-end;
+  align-self: flex-start;
+  margin-right: 20px;
 }
 .giftcard img {
   width: 452px;
@@ -923,7 +924,7 @@ header {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+  justify-content: center;
 }
 .inputbox h1 {
   margin-bottom: 20px;
@@ -1016,6 +1017,7 @@ header {
   border: none;
   font-size: 17px;
   margin-bottom: 70px;
+  cursor: pointer;
 }
 .inputbox2 button:hover {
   opacity: 0.8;
@@ -1027,13 +1029,13 @@ header {
   font-size: 44px;
   font-family: "poppins", sans-serif;
 }
-.mysct12 h2 {
+.botton h2 {
   text-align: center;
   margin-bottom: 100px;
   position: relative;
   font-family: "poppins", sans-serif;
 }
-.mysct12 h2::before {
+.botton h2::before {
   content: "";
   background-color: black;
   width: 20px;
@@ -1046,9 +1048,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 50px;
-  position: relative;
-  top: 80px;
 }
 .smallcard p {
   width: 190px;
@@ -1071,20 +1072,18 @@ header {
   width: 100%;
 }
 .botton {
- position: relative;
- top: 80px;
+ margin-top: 30px;
 }
 .bottoncard {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   flex-direction: column;
-  position: relative;
-  top: 120px;
+  margin-top: 30px;
  
 }
 .bottoncard h1 {
-  width: 500px;
+  width: 100%;
   text-align: center;
   color: #bc4c2a;
   font-family: "GFS Didot", serif;
@@ -1096,26 +1095,20 @@ header {
   font-family: "Mukta", sans-serif;
   font-weight: 300;
 }
-.left {
-  position: absolute;
-  left: 44%;
-  top: 0;
-}
+
 .inputbooox2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 900px;
+  align-items: center;
+  width: 100%;
 }
 .inputbooox3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 54%;
-  transform: translate(-50%, -50%);
-  width: 900px;
+  margin-top: 100px;
+  width: 100%;
 }
 .inputbooox input {
   width: 376px;
@@ -1128,6 +1121,14 @@ header {
   background-color: transparent;
   margin-bottom: 20px;
   padding-left: 10px;
+ 
+}
+.inputbooox{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  
 }
 .inputbooox input:hover {
   border-bottom: 2px solid #d1522b;
@@ -1169,10 +1170,11 @@ header {
   background-color: transparent;
   color: #bc4c2a;
   font-size: 17px;
-  position: absolute;
-  bottom: -35%;
-  left: 26%;
   transition: 0.5s;
+  cursor: pointer;
+  align-self: center;
+  justify-content: center;
+  margin-top: 40px;
 }
 .inputbooox2 button:hover {
   background-color: #bc4c2a;
@@ -1187,12 +1189,6 @@ header {
   width: 100px;
   font-family: "Mukta", sans-serif;
   font-weight: 100;
-}
-.bottooncard2 {
-  position: absolute;
-  left: 50%;
-  top: 80%;
-  transform: translate(-50%, -50%);
 }
 .bottooncard2 h1 {
   text-align: center;
@@ -1211,11 +1207,17 @@ header {
   bottom: -60%;
   left: 48%;
 }
+.mysct12{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .address2 {
   display: flex;
   gap: 80px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .address2 p {
   width: 150px;
@@ -1227,6 +1229,9 @@ header {
 .address3 {
   display: flex;
   gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .address3 p {
   width: 150px;
@@ -1237,6 +1242,12 @@ header {
 .leftmenu p {
   margin-bottom: 50px;
   font-family: "Mukta", sans-serif;
+}
+.allproduct{
+  margin-bottom: 50px;
+  font-family: "Mukta", sans-serif;
+  width: 100%;
+  display: none;
 }
 .leftmenu ul {
   margin-bottom: 50px;
@@ -1293,8 +1304,30 @@ header {
   flex-wrap: wrap;
   gap: 40px;
   width: 100%;
-  position: relative;
-  top: 200px;
+  margin-top: 200px;
+}
+#myselect{
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: "poppins",sans-serif;
+  color: rgb(61, 60, 60);
+  font-weight: 300;
+  position: absolute;
+  top: 2%;
+  right: 5%;
+}
+#myselect2{
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: "poppins",sans-serif;
+  color: rgb(61, 60, 60);
+  font-weight: 300;
+  position: absolute;
+  top: 1%;
+  right: 5%;
+  display: none;
 }
 .flex {
   display: flex;
@@ -1451,26 +1484,6 @@ input[type="range"]::-moz-range-thumb {
   -moz-appearance: none;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
-.footertxt3 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: 400px;
-  line-height: 40px;
-  text-align: center;
-  padding-inline: 80px;
-  position: relative;
-  top: 240px;
-  margin-bottom: 200px;
-
-}
-.footertxt3 ul {
-  font-family: "Mukta", sans-serif;
-  font-weight: 300;
-}
-.footertxt3 h1 {
-  color: #bc4c2a;
-}
 .myinput {
   display: flex;
   align-items: start;
@@ -1493,6 +1506,7 @@ input[type="range"]::-moz-range-thumb {
   color: #bc4c2a;
   background-color: white;
   transition: 0.5s;
+  cursor: pointer;
 }
 .myinput button:hover {
   background-color: #bc4c2a;
@@ -1656,6 +1670,156 @@ body header .burger-menu a:hover {
 main {
   animation: Loading 2s;
 }
+.textflex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Mukta", sans-serif;
+}
+.textflex2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maindiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.textflex2 p{
+  width: 400px;
+}
+.informationbag{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+}
+.informationbag h2{
+  margin-bottom: 20px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.informationbag p{
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.inputbar{
+  display: flex;
+  flex-direction: column;
+}
+.inputbar label{
+  margin-bottom: 20px;
+}
+
+.inputbar input{
+  width: 100px;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  outline: none;
+ 
+}
+.inputbar input::placeholder{
+  color: black;
+  font-size: 15px;
+}
+.myclick{
+  width: 400px;
+  height: 40px;
+  color: white;
+  background-color: #b43d18;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-family: "Mukta", sans-serif;
+}
+.myclick2{
+  width: 400px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  margin-bottom: 20px;
+  font-family: "Mukta", sans-serif;
+}
+.productinfo{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.productttt p{
+  width: 400px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+.flexplius{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  border-bottom: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #b43d18;
+  font-family: "Mukta", sans-serif;
+}
+.flexplius2{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  border-bottom: 1px solid gray;
+  padding-top: 20px;
+  color: #b43d18;
+  font-family: "Mukta", sans-serif;
+}
+.coloror{
+  color: #b43d18;
+}
+.productinfo{
+  color: #b43d18;
+}
+.myimg img{
+  margin-bottom: 20px;
+}
+.textflex2 p{
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+}
+.photocolag h2{
+  display: flex;
+  align-items: start;
+  margin-left: 180px;
+  margin-top: 50px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  width: 200px;
+}
+.bevrifoto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 80px;
+}
+.bevrifoto img{
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.bevrifoto p{
+  text-align: center;
+}
 @keyframes Loading {
   from {
     opacity: 0;
@@ -1699,10 +1863,18 @@ main {
     background-attachment: fixed;
     background-position-x: 100%;
   }
+  #myselect{
+    top: 1%;
+    right: 10%;
+  }
 }
 @media screen and (max-width: 1360px) {
   .mysct3 .card2 {
     background-position-x: 140%;
+  }
+  #myselect{
+    top: 1%;
+    right: 10%;
   }
 }
 
@@ -1722,7 +1894,15 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 1400px;
+    width: 100%;
+  }
+  .giftcard img:hover{
+    transform: scale(1.02);
+  }
+  .inputbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
   }
 }
@@ -1743,14 +1923,9 @@ main {
   .mysct3 .card2 {
     background-position-x: 200%;
   }
-
-  .footertxt .foootertxt {
-   width: 200px;
-  }
   .footertxt {
     display: flex;
     justify-content: center;
-    position: relative;
     width: 100%;
   }
   .tttttt {
@@ -1767,7 +1942,7 @@ main {
     gap: 15px;
   }
   .footertxt {
-    gap: 120px;
+    gap: 60px;
   }
   .myttt h1 {
     font-size: 20px;
@@ -1778,6 +1953,9 @@ main {
   
   header h1{
     margin-left: 25%;
+  }
+  #myselect{
+  display: none;
   }
 }
 @media screen and (max-width: 1170px) {
@@ -1793,13 +1971,15 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1400px;
+    height: 1000px;
     width: 100%;
   }
   .mysct3 .card2{
     background-attachment: local;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    height: 700px;
+    height: 400px;
 
   }
   .mysct3 {
@@ -1810,7 +1990,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1400px;
+    height: 1000px;
     width: 100%;
   }
   .card4 {
@@ -1818,6 +1998,9 @@ main {
   }
   .ttxttt{
     left: 30%;
+  }
+  .mysct{
+    background-attachment: local;
   }
  
 }
@@ -1844,10 +2027,32 @@ main {
   background-position-y: 100%;
  }
 }
-
+@media screen and (max-width:1094px) {
+ 
+}
 @media screen and (max-width:1024px) {
   .tttttt{
     display: none;
+  }
+}
+@media screen and (max-width:1004px) {
+  .mysct7 .card11{
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .mysct7 .card12{
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  .mysct7 .card15{
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
   }
 }
 @media screen and (max-width:1003px) {
@@ -1869,10 +2074,21 @@ main {
     gap: 50px;
     height: 500px;
   }
+  
+
 }
 @media screen and (max-width: 878px) {
   .ttxttt{
     left: 35%;
+  }
+}
+@media screen and (max-width:874px) {
+  .textflex2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
   }
 }
 @media screen and (max-width: 886px) {
@@ -1915,8 +2131,22 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 1350px;
+    height: 1000px;
     
+  }
+  .footertxt h1{
+    position: relative;
+    top: -140px;
+  }
+  .myinput{
+    position: relative;
+    top: -120px;
+  }
+  .myinput input{
+    width: 200px;
+  }
+  .myinput button{
+    width: 200px;
   }
 
   .tttttt{
@@ -1951,7 +2181,7 @@ main {
   }
   .box p{
     position: absolute;
-    right: 20%;
+    right: 10%;
   }
   .menu-content p{
     position: relative;
@@ -1959,30 +2189,97 @@ main {
   }
  
 }
-@media screen and (max-width:1004px) {
-  .mysct7 .card11{
-    background-attachment: local;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+@media screen and (max-width:870px) {
+  .box p{
+    position: absolute;
+    right: 10%;
   }
-  .mysct7 .card12{
-    background-attachment: local;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+}
+@media screen and (max-width:858px) {
+  .mysct13 .ttxttt2{
+    display: block;
+    left: 10%;
   }
-  .mysct7 .card15{
-    background-attachment: local;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
+}
+@media screen and (max-width:845px) {
+ .giftcard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ }
+ .inputbox{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+ }
+}
+@media screen and (max-width:824px){
+  .inputbooox2 input{
+    width:600px ;
+  }
+  .inputbooox2 textarea{
+    width: 600px;
+  }
+  .inputbooox input{
+   width: 295px;
+  }
+}
+@media screen and (max-width:796px) {
+  .myuser {
+    position: relative;
+    top: -33px;
+    left: -320px;
+  }
+}
+@media screen and (max-width:716px) {
+  .myuser {
+    position: relative;
+    top: -33px;
+    left: -290px;
+  }
+}
+@media screen and (max-width:686px) {
+  .myuser{
+    left: -240px;
+  }
+}
+@media screen and (max-width:626px) {
+  .myuser {
+    position: relative;
+    top: -33px;
+    left: -250px;
+  }
+}
+@media screen and (max-width:624px) {
+  .inputbooox2 input{
+    width: 500px;
+  }
+  .inputbooox2 textarea{
+    width: 500px;
+  }
+  .inputbooox input{
+    width: 245px;
+  }
+}
+@media screen and (max-width:610px){
+  .mysct12{
+    height: 2000px;
+  }
+  .bottooncard2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width:606px) {
+  .myuser{
+    left: -220px;
   }
 }
 @media screen and (max-width:600px) {
-  .mysct2{
-    height: 2100px;
-  }
   .ttxttt {
     left: 25%;
   }
@@ -1997,15 +2294,64 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
     position: relative;
-    left: 20%;
+    left: 15%;
   }
+  .footertxt3 h1{
+    position: relative;
+    top: -120px;
+  }
+  #myselect2{
+    display: block;
+    width: 100px;
+  }
+ 
 }
 .ttxttt2{
   display: block;
 }
-
+@media screen and (max-width:595px) {
+  .myttt h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width:590px){
+  .box p{
+    right: 15%;
+  }
+}
+@media screen and (max-width:575px) {
+  .mysct2{
+    height: 2100px;
+  }
+}
+@media screen and (max-width:542px) {
+  .myuser{
+    left: -200px;
+  }
+}
+@media screen and (max-width:510px){
+  .inputbooox2 input{
+    width: 450px;
+  }
+  .inputbooox2 textarea{
+    width: 450px;
+  }
+  .inputbooox input{
+    width: 220px;
+  }
+  .bottoncard p{
+    width: 400px;
+  }
+}
+@media screen and (max-width:500px) {
+  .myuser{
+    left: -160px;
+  }
+}
 @media screen and (max-width:480px) {
   .mysct2{
     height: 2100px;
@@ -2016,16 +2362,145 @@ main {
   .myttt h1{
     width: 400px;
   }
+  #myselect2{
+    display: block;
+  }
+  .mysct12{
+    height: 2000px;
+  }
+}
+@media screen and (max-width:468px) {
+ .giftcard{
+  position: relative;
+  left: 2%;
+ }
+ .inputbooox2 input{
+  width: 400px;
+}
+.inputbooox2 textarea{
+  width: 400px;
+}
+.inputbooox input{
+  width: 195px;
+}
+.bottoncard p{
+  width: 400px;
+}
+.inputbox{
+  margin-left: 5px;
+}
+}
+@media screen and (max-width:460px){
+  .textflex2 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .textflex2 p{
+    width: 300px;
+  }
+}
+@media screen and (max-width:448px){
+  .inputbooox2 input{
+    width: 350px;
+  }
+  .inputbooox2 textarea{
+    width: 350px;
+  }
+  .inputbooox input{
+    width: 170px;
+  }
+  .bottoncard p{
+    width: 350px;
+  }
+}
+@media screen and (max-width:438px) {
+  .myuser{
+    left: -100px;
+  }
 }
 @media screen and (max-width:431px){
   
   .myuser {
     position: relative;
     top: -35px;
-    left: -150px;
+    left: -110px;
   }
   .myttt h1{
     width: 400px;
+  }
+}
+@media screen and (max-width:418px){
+  .box p{
+    right: 20%;
+  }
+}
+@media screen and (max-width:412px) {
+  .productinfo{
+    width: 300px;
+  }
+  .productttt{
+    width: 300px;
+  }
+  .flexplius{
+    width: 300px;
+  }
+  .flexplius2{
+    width: 300px;
+  }
+  .myclick{
+    width: 300px;
+  }
+  .myclick2{
+    width: 300px;
+  }
+  .photocolag h2{
+    position: relative;
+    left: -60px;
+  }
+}
+@media screen and (max-width:400px) {
+  .imgwidth img{
+    width: 300px;
+  }
+  .card4 img{
+    width: 300px;
+  }
+  .card2 a{
+    left: 10%;
+  }
+  .myttt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width:396px){
+  .card7 p{
+    width: 300px;
+  }
+  .card9 p{
+    width: 300px;
+  }
+}
+@media screen and (max-width:380px) {
+  .mysct12{
+    height: 2400px;
+  }
+}
+@media screen and (max-width:360px) {
+  .imgwidth img{
+    width: 250px;
+  }
+  .card4 img{
+    width: 250px;
+  }
+  .box .icon{
+    position: relative;
+    left: 10px;
+  }
+  .card2 a{
+    width: 200px;
   }
 }
 @media screen and (max-width:345px) {
@@ -2044,5 +2519,59 @@ main {
     top: -35px;
     left: -120px;
   }
+  .card10 p{
+    width: 300px;
+  }
+  .card13 p{
+   width: 300px;
+  }
+  .card14 p{
+    width: 300px;
+  }
+  .mysct7 h1{
+    font-size: 30px;
+  }
  
+}
+@media screen and (max-width:388px) {
+  .myuser {
+    position: relative;
+    top: -33px;
+    left: -120px;
+  }
+}
+@media screen and (max-width:376px) {
+  .myuser {
+    position: relative;
+    top: -33px;
+    left: -120px;
+  }
+}
+@media screen and (max-width:335px) {
+  .myuser{
+    left: -90px;
+  }
+}
+@media screen and (max-width:316px) {
+  .myuser {
+    position: relative;
+    top: -33px;
+    left: -100px;
+  }
+}
+@media screen and (max-width:280px) {
+  .myuser {
+    position: relative;
+    top: -33px;
+    left: -80px;
+  }
+  .footertxt{
+    position: relative;
+    left: -13%;
+  }
+}
+@media screen and (max-width:294px) {
+  .myuser{
+    left: -70px;
+  }
 }
