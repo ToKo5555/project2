@@ -469,6 +469,7 @@ a:hover {
   backdrop-filter: brightness(80%);
   position: relative;
 }
+/*
 .imagees2:before {
   content: "";
   position: absolute;
@@ -477,6 +478,7 @@ a:hover {
   top: 0;
   background: rgb(0, 0, 0, 0.25);
 }
+  */
 .imagees {
   background-image: url(./images/ea71bb_54a6c9dcf04b481fa3d41833ea7a29f6~mv2_d_1984_1441_s_2.jpg);
   width: 380px;
@@ -486,6 +488,7 @@ a:hover {
   background-size: contain;
   backdrop-filter: brightness(80%);
 }
+/*
 .imagees:before {
   content: "";
   position: absolute;
@@ -494,6 +497,7 @@ a:hover {
   top: 0;
   background: rgb(0, 0, 0, 0.25);
 }
+  */
 .imagees3 {
   background-image: url(./images/ea71bb_049132934a484c96b5c05403933e4539~mv2_d_6720_4480_s_4_2.jpg);
   width: 380px;
@@ -503,6 +507,7 @@ a:hover {
   background-size: contain;
   backdrop-filter: brightness(80%);
 }
+/*
 .imagees3:before {
   content: "";
   position: absolute;
@@ -511,6 +516,7 @@ a:hover {
   top: 0;
   background: rgb(0, 0, 0, 0.25);
 }
+  */
 .txtt {
   position: absolute;
   display: flex;
