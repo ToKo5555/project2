@@ -91,10 +91,12 @@
             <h2>I'm a product</h2>
             <p>SKU: 0002</p>
             <p class="coloror"><i>$400.00</i></p>
-            <form class="inputbar" >
-              <label for="">Quentity</label>
-              <input type="number" placeholder="1" required>
-            </form>
+            <label for="">Quantity</label>
+                <div class="quantity">
+                  <button class="quantity-btn" onclick="decreaseQuantity()"><i class="fa-solid fa-minus"></i></button>
+                  <input type="number" id="quantity" name="quantity" min="1" value="1">
+                  <button class="quantity-btn" onclick="increaseQuantity()"><i class="fa-solid fa-plus"></i></button>
+              </div>
             <button class="myclick">add to cart</button>
             <button class="myclick2">Buy Now</button>
             <div class="productinfo">
@@ -183,6 +185,7 @@
           </div>
         </form>
       </footer>
+      <p class="tttttt">©2035 by adalene. Powered and secured by Wix</p>
     </main>
     <script src="./main.js"></script>
 </body>

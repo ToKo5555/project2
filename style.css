@@ -44,14 +44,13 @@ header h1 {
   width: 200px;
   font-weight: 400;
 }
-nav h1{
+nav h1 {
   display: none;
   color: #bc4c2a;
   font-size: 40px;
   text-align: center;
   width: 200px;
   font-weight: 400;
-
 }
 .search .fa-magnifying-glass {
   position: relative;
@@ -259,9 +258,9 @@ a:hover {
   color: white;
   background-color: #bc4c2a;
   text-align: center;
-  position: absolute;
   z-index: 1;
   font-size: 15px;
+  position: absolute;
   top: 10px;
   left: 10px;
 }
@@ -295,7 +294,7 @@ a:hover {
   font-weight: 300;
   cursor: pointer;
 }
-.button-container{
+.button-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -469,16 +468,6 @@ a:hover {
   backdrop-filter: brightness(80%);
   position: relative;
 }
-/*
-.imagees2:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  background: rgb(0, 0, 0, 0.25);
-}
-  */
 .imagees {
   background-image: url(./images/ea71bb_54a6c9dcf04b481fa3d41833ea7a29f6~mv2_d_1984_1441_s_2.jpg);
   width: 380px;
@@ -488,16 +477,6 @@ a:hover {
   background-size: contain;
   backdrop-filter: brightness(80%);
 }
-/*
-.imagees:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  background: rgb(0, 0, 0, 0.25);
-}
-  */
 .imagees3 {
   background-image: url(./images/ea71bb_049132934a484c96b5c05403933e4539~mv2_d_6720_4480_s_4_2.jpg);
   width: 380px;
@@ -507,32 +486,21 @@ a:hover {
   background-size: contain;
   backdrop-filter: brightness(80%);
 }
-/*
-.imagees3:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  background: rgb(0, 0, 0, 0.25);
-}
-  */
 .txtt {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   font-size: 15px;
   flex-direction: column;
-  top: 30%;
   color: white;
-  left: 30%;
+  margin-top: 120px;
 }
 .txtt h1 {
   font-size: 25px;
   font-family: "poppins", sans-serif;
   font-weight: 500;
+  position: relative;
 }
 .txtt h3 {
   font-size: 20px;
@@ -545,8 +513,8 @@ a:hover {
   width: 20px;
   height: 2px;
   background-color: white;
-  bottom: 10px;
-  left: 53px;
+  bottom: -5px;
+  left: 40%;
 }
 .txtt a {
   color: white;
@@ -559,7 +527,6 @@ a:hover {
   height: 800px;
   background-color: #f6f3ef;
   width: 100%;
-  
 }
 .imaggg {
   display: flex;
@@ -584,20 +551,20 @@ a:hover {
 }
 .txxt h1 {
   text-align: center;
-  position: relative;
-  top: 70px;
   font-size: 25px;
   font-family: "poppins", sans-serif;
   font-weight: 500;
+  position: relative;
+  top: 50px;
 }
 .txxt h2 {
   text-align: center;
   color: #bc4c2a;
   margin-bottom: 150px;
-  position: relative;
-  top: 80px;
   font-size: 30px;
   font-weight: 300;
+  position: relative;
+  top: 60px;
 }
 .myttt {
   display: flex;
@@ -680,6 +647,9 @@ a:hover {
   text-align: center;
   padding-top: 10px;
   left: 0;
+  font-family: "Mukta", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
 }
 .fixed {
   height: 100px;
@@ -696,25 +666,24 @@ a:hover {
   letter-spacing: 5px;
   font-weight: 600;
 }
-  .card7{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex: 1;
-    height: 700px;
-    background-color: #f6f3ef;
-    width: 100%;
-    
-  }
-  .card7 p{
-    line-height: 25px;
-    font-size: 18px;
-    font-family: "Mukta", sans-serif;
-    font-weight: 300;
-    width: 400px;
-    text-align: center;
-  }
+.card7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  height: 700px;
+  background-color: #f6f3ef;
+  width: 100%;
+}
+.card7 p {
+  line-height: 25px;
+  font-size: 18px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  width: 400px;
+  text-align: center;
+}
 .card7 h1 {
   font-size: 25px;
   position: relative;
@@ -758,7 +727,7 @@ a:hover {
   height: 700px;
   flex: 1;
 }
-.card9{
+.card9 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -903,15 +872,14 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width:100%;
-  
+  width: 100%;
 }
 .giftcard {
   flex: 1;
   width: 420px;
   height: 300px;
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   align-self: flex-start;
   margin-right: 20px;
 }
@@ -919,13 +887,13 @@ header {
   width: 452px;
   height: 300px;
   transition: 0.5s;
-  object-fit:contain;
+  object-fit: contain;
 }
 
 .giftcard img:hover {
   transform: scale(1.1);
 }
-  
+
 .inputbox {
   flex: 1;
   display: flex;
@@ -1078,15 +1046,14 @@ header {
   width: 100%;
 }
 .botton {
- margin-top: 30px;
+  margin-top: 30px;
 }
 .bottoncard {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-direction: column;
   margin-top: 30px;
- 
 }
 .bottoncard h1 {
   width: 100%;
@@ -1127,14 +1094,12 @@ header {
   background-color: transparent;
   margin-bottom: 20px;
   padding-left: 10px;
- 
 }
-.inputbooox{
+.inputbooox {
   display: flex;
   justify-content: center;
   gap: 10px;
   width: 100%;
-  
 }
 .inputbooox input:hover {
   border-bottom: 2px solid #d1522b;
@@ -1213,7 +1178,7 @@ header {
   bottom: -60%;
   left: 48%;
 }
-.mysct12{
+.mysct12 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1249,7 +1214,7 @@ header {
   margin-bottom: 50px;
   font-family: "Mukta", sans-serif;
 }
-.allproduct{
+.allproduct {
   margin-bottom: 50px;
   font-family: "Mukta", sans-serif;
   width: 100%;
@@ -1273,7 +1238,7 @@ header {
   gap: 20px;
   font-family: "poppins", sans-serif;
 }
-.mysct13 .ttxttt2{
+.mysct13 .ttxttt2 {
   position: absolute;
   left: 20%;
   top: 80px;
@@ -1312,22 +1277,22 @@ header {
   width: 100%;
   margin-top: 200px;
 }
-#myselect{
+#myselect {
   border: none;
   outline: none;
   font-size: 15px;
-  font-family: "poppins",sans-serif;
+  font-family: "poppins", sans-serif;
   color: rgb(61, 60, 60);
   font-weight: 300;
   position: absolute;
   top: 2%;
   right: 5%;
 }
-#myselect2{
+#myselect2 {
   border: none;
   outline: none;
   font-size: 15px;
-  font-family: "poppins",sans-serif;
+  font-family: "poppins", sans-serif;
   color: rgb(61, 60, 60);
   font-weight: 300;
   position: absolute;
@@ -1519,6 +1484,10 @@ input[type="range"]::-moz-range-thumb {
   color: white;
   border: 1px solid white;
 }
+.myinput h2 {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+}
 .overlay2 {
   position: fixed;
   top: 0;
@@ -1676,64 +1645,62 @@ body header .burger-menu a:hover {
 main {
   animation: Loading 2s;
 }
-.textflex{
+.textflex {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: "Mukta", sans-serif;
 }
-.textflex2{
+.textflex2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.maindiv{
+.maindiv {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
   width: 100%;
 }
-.textflex2 p{
+.textflex2 p {
   width: 400px;
 }
-.informationbag{
+.informationbag {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-left: 20px;
 }
-.informationbag h2{
+.informationbag h2 {
   margin-bottom: 20px;
   font-family: "Mukta", sans-serif;
   font-weight: 300;
   margin-top: 30px;
 }
-.informationbag p{
+.informationbag p {
   margin-bottom: 20px;
   font-size: 18px;
 }
-.inputbar{
+.inputbar {
   display: flex;
   flex-direction: column;
 }
-.inputbar label{
+.inputbar label {
   margin-bottom: 20px;
 }
 
-.inputbar input{
+.inputbar input {
   width: 100px;
   height: 40px;
   padding-left: 10px;
   margin-bottom: 20px;
   outline: none;
- 
 }
-.inputbar input::placeholder{
+.inputbar input::placeholder {
   color: black;
   font-size: 15px;
 }
-.myclick{
+.myclick {
   width: 400px;
   height: 40px;
   color: white;
@@ -1744,7 +1711,7 @@ main {
   margin-bottom: 20px;
   font-family: "Mukta", sans-serif;
 }
-.myclick2{
+.myclick2 {
   width: 400px;
   height: 40px;
   color: white;
@@ -1755,12 +1722,12 @@ main {
   margin-bottom: 20px;
   font-family: "Mukta", sans-serif;
 }
-.productinfo{
+.productinfo {
   display: flex;
   justify-content: space-between;
   width: 400px;
 }
-.productttt p{
+.productttt p {
   width: 400px;
   border-bottom: 1px solid gray;
   padding-bottom: 20px;
@@ -1768,7 +1735,7 @@ main {
   font-weight: 300;
   font-size: 15px;
 }
-.flexplius{
+.flexplius {
   display: flex;
   justify-content: space-between;
   width: 400px;
@@ -1778,7 +1745,7 @@ main {
   color: #b43d18;
   font-family: "Mukta", sans-serif;
 }
-.flexplius2{
+.flexplius2 {
   display: flex;
   justify-content: space-between;
   width: 400px;
@@ -1787,29 +1754,32 @@ main {
   color: #b43d18;
   font-family: "Mukta", sans-serif;
 }
-.coloror{
+.coloror {
   color: #b43d18;
 }
-.productinfo{
+.productinfo {
   color: #b43d18;
 }
-.myimg img{
+.myimg img {
   margin-bottom: 20px;
+  margin-right: 20px;
 }
-.textflex2 p{
+.textflex2 p {
   font-family: "Mukta", sans-serif;
   font-weight: 300;
 }
-.photocolag h2{
+.photocolag h2 {
   display: flex;
   align-items: start;
-  margin-left: 180px;
-  margin-top: 50px;
   font-family: "Mukta", sans-serif;
   font-weight: 300;
+  margin-left: 12%;
   width: 200px;
 }
-.bevrifoto{
+.mysct15 label {
+  margin-bottom: 10px;
+}
+.bevrifoto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1817,13 +1787,13 @@ main {
   gap: 40px;
   margin-top: 80px;
 }
-.bevrifoto img{
+.bevrifoto img {
   width: 200px;
   height: 250px;
   object-fit: cover;
   border-radius: 10px;
 }
-.bevrifoto p{
+.bevrifoto p {
   text-align: center;
 }
 @keyframes Loading {
@@ -1854,22 +1824,22 @@ main {
     transform: translateY(0);
   }
 }
-@media screen and (max-width:1391px) {
-  .mysct7 .card11{
+@media screen and (max-width: 1391px) {
+  .mysct7 .card11 {
     width: 100%;
-    background-position:center;
+    background-position: center;
     background-attachment: fixed;
     background-position-x: 100%;
   }
 }
-@media screen and (max-width:1380px) {
-  .mysct7 .card11{
+@media screen and (max-width: 1380px) {
+  .mysct7 .card11 {
     width: 100%;
-    background-position:center;
+    background-position: center;
     background-attachment: fixed;
     background-position-x: 100%;
   }
-  #myselect{
+  #myselect {
     top: 1%;
     right: 10%;
   }
@@ -1878,7 +1848,7 @@ main {
   .mysct3 .card2 {
     background-position-x: 140%;
   }
-  #myselect{
+  #myselect {
     top: 1%;
     right: 10%;
   }
@@ -1895,17 +1865,17 @@ main {
   }
 }
 @media screen and (max-width: 1285px) {
-  .mysct11 .collection{
+  .mysct11 .collection {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
   }
-  .giftcard img:hover{
+  .giftcard img:hover {
     transform: scale(1.02);
   }
-  .inputbox{
+  .inputbox {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1920,7 +1890,6 @@ main {
   .cards {
     gap: 20px;
   }
- 
 }
 @media screen and (max-width: 1220px) {
   .cards {
@@ -1935,9 +1904,8 @@ main {
     width: 100%;
   }
   .tttttt {
-   display: none;
+    display: none;
   }
- 
 }
 @media screen and (max-width: 1180px) {
   .cards {
@@ -1953,15 +1921,15 @@ main {
   .myttt h1 {
     font-size: 20px;
   }
-  .mysct2{
+  .mysct2 {
     height: 1105px;
   }
-  
-  header h1{
+
+  header h1 {
     margin-left: 25%;
   }
-  #myselect{
-  display: none;
+  #myselect {
+    display: none;
   }
 }
 @media screen and (max-width: 1170px) {
@@ -1980,13 +1948,12 @@ main {
     height: 1000px;
     width: 100%;
   }
-  .mysct3 .card2{
+  .mysct3 .card2 {
     background-attachment: local;
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 400px;
-
   }
   .mysct3 {
     position: relative;
@@ -2002,99 +1969,93 @@ main {
   .card4 {
     width: 100%;
   }
-  .ttxttt{
+  .ttxttt {
     left: 30%;
   }
-  .mysct{
+  .mysct {
     background-attachment: local;
   }
- 
 }
-@media screen and (max-width:1099px) {
- .mysct6 .flexbooox{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 1200px;
- }
- .mysct6 .card6{
-  background-position: center;
-  background-size:cover;
-  height: 100%;
-  background-attachment: local;
-  width: 100%;
- }
- .mysct6 .card8{
-  width: 100%;
-  background-attachment: local;
-  background-position-x: 50%;
-  background-position-y: 100%;
- }
+@media screen and (max-width: 1099px) {
+  .mysct6 .flexbooox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 1200px;
+  }
+  .mysct6 .card6 {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: local;
+    width: 100%;
+  }
+  .mysct6 .card8 {
+    width: 100%;
+    background-attachment: local;
+    background-position-x: 50%;
+    background-position-y: 100%;
+  }
 }
-@media screen and (max-width:1094px) {
- 
-}
-@media screen and (max-width:1024px) {
-  .tttttt{
+@media screen and (max-width: 1024px) {
+  .tttttt {
     display: none;
   }
 }
-@media screen and (max-width:1004px) {
-  .mysct7 .card11{
+@media screen and (max-width: 1004px) {
+  .mysct7 .card11 {
     background-attachment: local;
     background-position: center;
     background-size: cover;
     width: 100%;
   }
-  .mysct7 .card12{
+  .mysct7 .card12 {
     background-attachment: local;
     background-position: center;
     background-size: cover;
     width: 100%;
   }
-  .mysct7 .card15{
+  .mysct7 .card15 {
     background-attachment: local;
     background-position: center;
     background-size: cover;
     width: 100%;
   }
 }
-@media screen and (max-width:1003px) {
- .mysct7 .flexbooox2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 1400px;
- }
+@media screen and (max-width: 1003px) {
+  .mysct7 .flexbooox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 1400px;
+  }
 }
 
-@media screen and (max-width:887px) {
-  .leftmenu{
+@media screen and (max-width: 887px) {
+  .leftmenu {
     display: none;
   }
-  .footertxt3{
+  .footertxt3 {
     gap: 50px;
     height: 500px;
   }
-  
-
 }
 @media screen and (max-width: 878px) {
-  .ttxttt{
+  .ttxttt {
     left: 35%;
   }
 }
-@media screen and (max-width:874px) {
-  .textflex2{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
+@media screen and (max-width: 883px) {
+  .textflex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 @media screen and (max-width: 886px) {
@@ -2108,12 +2069,12 @@ main {
     display: flex;
     justify-content: space-between;
   }
- nav h1{
-  display: block;
- }
- header h1 {
-  display: none;
- }
+  nav h1 {
+    display: block;
+  }
+  header h1 {
+    display: none;
+  }
   header {
     display: flex;
     justify-content: flex-start;
@@ -2138,24 +2099,23 @@ main {
     align-items: center;
     flex-direction: column;
     height: 1000px;
-    
   }
-  .footertxt h1{
+  .footertxt h1 {
     position: relative;
     top: -140px;
   }
-  .myinput{
+  .myinput {
     position: relative;
     top: -120px;
   }
-  .myinput input{
+  .myinput input {
     width: 200px;
   }
-  .myinput button{
+  .myinput button {
     width: 200px;
   }
 
-  .tttttt{
+  .tttttt {
     display: block;
   }
 
@@ -2185,116 +2145,115 @@ main {
     font-size: 30px;
     width: 300px;
   }
-  .box p{
+  .box p {
     position: absolute;
     right: 10%;
   }
-  .menu-content p{
+  .menu-content p {
     position: relative;
     left: -5px;
   }
- 
 }
-@media screen and (max-width:870px) {
-  .box p{
+@media screen and (max-width: 870px) {
+  .box p {
     position: absolute;
     right: 10%;
   }
 }
-@media screen and (max-width:858px) {
-  .mysct13 .ttxttt2{
+@media screen and (max-width: 858px) {
+  .mysct13 .ttxttt2 {
     display: block;
     left: 10%;
   }
 }
-@media screen and (max-width:845px) {
- .giftcard{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
- }
- .inputbox{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 500px;
- }
-}
-@media screen and (max-width:824px){
-  .inputbooox2 input{
-    width:600px ;
+@media screen and (max-width: 845px) {
+  .giftcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
-  .inputbooox2 textarea{
+  .inputbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 824px) {
+  .inputbooox2 input {
     width: 600px;
   }
-  .inputbooox input{
-   width: 295px;
+  .inputbooox2 textarea {
+    width: 600px;
+  }
+  .inputbooox input {
+    width: 295px;
   }
 }
-@media screen and (max-width:796px) {
+@media screen and (max-width: 796px) {
   .myuser {
     position: relative;
     top: -33px;
     left: -320px;
   }
 }
-@media screen and (max-width:716px) {
+@media screen and (max-width: 716px) {
   .myuser {
     position: relative;
     top: -33px;
     left: -290px;
   }
 }
-@media screen and (max-width:686px) {
-  .myuser{
+@media screen and (max-width: 686px) {
+  .myuser {
     left: -240px;
   }
 }
-@media screen and (max-width:626px) {
+@media screen and (max-width: 626px) {
   .myuser {
     position: relative;
     top: -33px;
     left: -250px;
   }
 }
-@media screen and (max-width:624px) {
-  .inputbooox2 input{
+@media screen and (max-width: 624px) {
+  .inputbooox2 input {
     width: 500px;
   }
-  .inputbooox2 textarea{
+  .inputbooox2 textarea {
     width: 500px;
   }
-  .inputbooox input{
+  .inputbooox input {
     width: 245px;
   }
 }
-@media screen and (max-width:610px){
-  .mysct12{
+@media screen and (max-width: 610px) {
+  .mysct12 {
     height: 2000px;
   }
-  .bottooncard2{
+  .bottooncard2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 }
-@media screen and (max-width:606px) {
-  .myuser{
+@media screen and (max-width: 606px) {
+  .myuser {
     left: -220px;
   }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .ttxttt {
     left: 25%;
   }
-  .item1 img{
+  .item1 img {
     width: 250px;
     height: 350px;
   }
-  .footertxt3{
-    height:1200px ;
+  .footertxt3 {
+    height: 1200px;
     width: 300px;
     display: flex;
     justify-content: center;
@@ -2304,280 +2263,283 @@ main {
     position: relative;
     left: 15%;
   }
-  .footertxt3 h1{
+  .footertxt3 h1 {
     position: relative;
     top: -120px;
   }
-  #myselect2{
+  #myselect2 {
     display: block;
     width: 100px;
   }
- 
 }
-.ttxttt2{
+.ttxttt2 {
   display: block;
 }
-@media screen and (max-width:595px) {
-  .myttt h1{
+@media screen and (max-width: 595px) {
+  .myttt h1 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
-@media screen and (max-width:590px){
-  .box p{
+@media screen and (max-width: 590px) {
+  .box p {
     right: 15%;
   }
 }
-@media screen and (max-width:575px) {
-  .mysct2{
+@media screen and (max-width: 575px) {
+  .mysct2 {
     height: 2100px;
   }
 }
-@media screen and (max-width:542px) {
-  .myuser{
+@media screen and (max-width: 542px) {
+  .myuser {
     left: -200px;
   }
 }
-@media screen and (max-width:510px){
-  .inputbooox2 input{
+@media screen and (max-width: 510px) {
+  .inputbooox2 input {
     width: 450px;
   }
-  .inputbooox2 textarea{
+  .inputbooox2 textarea {
     width: 450px;
   }
-  .inputbooox input{
+  .inputbooox input {
     width: 220px;
   }
-  .bottoncard p{
+  .bottoncard p {
     width: 400px;
   }
 }
-@media screen and (max-width:500px) {
-  .myuser{
+@media screen and (max-width: 500px) {
+  .myuser {
     left: -160px;
   }
 }
-@media screen and (max-width:480px) {
-  .mysct2{
+@media screen and (max-width: 480px) {
+  .mysct2 {
     height: 2100px;
   }
-  header h1{
+  header h1 {
     margin-left: 12%;
   }
-  .myttt h1{
+  .myttt h1 {
     width: 400px;
   }
-  #myselect2{
+  #myselect2 {
     display: block;
   }
-  .mysct12{
+  .mysct12 {
     height: 2000px;
   }
 }
-@media screen and (max-width:468px) {
- .giftcard{
-  position: relative;
-  left: 2%;
- }
- .inputbooox2 input{
-  width: 400px;
+@media screen and (max-width: 468px) {
+  .giftcard {
+    position: relative;
+    left: 2%;
+  }
+  .inputbooox2 input {
+    width: 400px;
+  }
+  .inputbooox2 textarea {
+    width: 400px;
+  }
+  .inputbooox input {
+    width: 195px;
+  }
+  .bottoncard p {
+    width: 400px;
+  }
+  .inputbox {
+    margin-left: 5px;
+  }
 }
-.inputbooox2 textarea{
-  width: 400px;
-}
-.inputbooox input{
-  width: 195px;
-}
-.bottoncard p{
-  width: 400px;
-}
-.inputbox{
-  margin-left: 5px;
-}
-}
-@media screen and (max-width:460px){
-  .textflex2 img{
+@media screen and (max-width: 460px) {
+  .textflex2 img {
     width: 300px;
     height: 300px;
     object-fit: cover;
   }
-  .textflex2 p{
+  .textflex2 p {
     width: 300px;
   }
 }
-@media screen and (max-width:448px){
-  .inputbooox2 input{
+@media screen and (max-width: 448px) {
+  .inputbooox2 input {
     width: 350px;
   }
-  .inputbooox2 textarea{
+  .inputbooox2 textarea {
     width: 350px;
   }
-  .inputbooox input{
+  .inputbooox input {
     width: 170px;
   }
-  .bottoncard p{
+  .bottoncard p {
     width: 350px;
   }
 }
-@media screen and (max-width:438px) {
-  .myuser{
+@media screen and (max-width: 438px) {
+  .myuser {
     left: -100px;
   }
 }
-@media screen and (max-width:431px){
-  
+@media screen and (max-width: 431px) {
   .myuser {
     position: relative;
     top: -35px;
     left: -110px;
   }
-  .myttt h1{
+  .myttt h1 {
     width: 400px;
   }
 }
-@media screen and (max-width:418px){
-  .box p{
+@media screen and (max-width: 418px) {
+  .box p {
     right: 20%;
   }
 }
-@media screen and (max-width:412px) {
-  .productinfo{
+@media screen and (max-width: 412px) {
+  .productinfo {
     width: 300px;
   }
-  .productttt{
+  .productttt {
     width: 300px;
   }
-  .flexplius{
+  .flexplius {
     width: 300px;
   }
-  .flexplius2{
+  .flexplius2 {
     width: 300px;
   }
-  .myclick{
+  .myclick {
     width: 300px;
   }
-  .myclick2{
+  .myclick2 {
     width: 300px;
   }
-  .photocolag h2{
+  .photocolag h2 {
     position: relative;
     left: -60px;
   }
 }
-@media screen and (max-width:400px) {
-  .imgwidth img{
+@media screen and (max-width: 400px) {
+  .imgwidth img {
     width: 300px;
   }
-  .card4 img{
+  .card4 img {
     width: 300px;
   }
-  .card2 a{
+  .card2 a {
     left: 10%;
   }
-  .myttt{
+  .myttt {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
-@media screen and (max-width:396px){
-  .card7 p{
+@media screen and (max-width: 396px) {
+  .card7 p {
     width: 300px;
   }
-  .card9 p{
+  .card9 p {
     width: 300px;
   }
 }
-@media screen and (max-width:380px) {
-  .mysct12{
+@media screen and (max-width: 380px) {
+  .mysct12 {
     height: 2400px;
   }
 }
-@media screen and (max-width:360px) {
-  .imgwidth img{
+@media screen and (max-width: 360px) {
+  .imgwidth img {
     width: 250px;
   }
-  .card4 img{
+  .card4 img {
     width: 250px;
   }
-  .box .icon{
+  .box .icon {
     position: relative;
     left: 10px;
   }
-  .card2 a{
+  .card2 a {
     width: 200px;
   }
 }
-@media screen and (max-width:345px) {
-  .imgwidth img{
-    width:300px ;
-  }
-  .card4 img{
+@media screen and (max-width: 345px) {
+  .imgwidth img {
     width: 300px;
   }
-  .myttt h1{
-   position: relative;
-   left: -40px;
+  .card4 img {
+    width: 300px;
+  }
+  .myttt h1 {
+    position: relative;
+    left: -40px;
   }
   .myuser {
     position: relative;
     top: -35px;
     left: -120px;
   }
-  .card10 p{
+  .card10 p {
     width: 300px;
   }
-  .card13 p{
-   width: 300px;
-  }
-  .card14 p{
+  .card13 p {
     width: 300px;
   }
-  .mysct7 h1{
+  .card14 p {
+    width: 300px;
+  }
+  .mysct7 h1 {
     font-size: 30px;
   }
- 
 }
-@media screen and (max-width:388px) {
+@media screen and (max-width: 388px) {
   .myuser {
     position: relative;
     top: -33px;
     left: -120px;
   }
 }
-@media screen and (max-width:376px) {
+@media screen and (max-width: 376px) {
   .myuser {
     position: relative;
     top: -33px;
     left: -120px;
   }
 }
-@media screen and (max-width:335px) {
-  .myuser{
+@media screen and (max-width: 335px) {
+  .myuser {
     left: -90px;
   }
 }
-@media screen and (max-width:316px) {
+@media screen and (max-width: 316px) {
   .myuser {
     position: relative;
     top: -33px;
     left: -100px;
   }
 }
-@media screen and (max-width:280px) {
+@media screen and (max-width: 312px) {
+  .footertxt {
+    position: relative;
+    left: -20px;
+  }
+}
+@media screen and (max-width: 280px) {
   .myuser {
     position: relative;
     top: -33px;
     left: -80px;
   }
-  .footertxt{
+  .footertxt {
     position: relative;
     left: -13%;
   }
 }
-@media screen and (max-width:294px) {
-  .myuser{
+@media screen and (max-width: 294px) {
+  .myuser {
     left: -70px;
   }
 }

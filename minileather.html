@@ -9,13 +9,11 @@
 </head>
 <body>
   <header>
-    <div class="search">
+    <form class="search">
       <i class="fa-solid fa-magnifying-glass"></i>
       <input class="my2" type="text" placeholder="Search..." />
-    </div>
-    <a href="./index.html"
-      ><h1><i>adalene.</i></h1></a
-    >
+    </form>
+    <a href="./index.html"><h1><i>adalene.</i></h1></a>
     <div class="box">
       <div class="icon">
         <i class="fa-brands fa-facebook-f"></i>
@@ -28,10 +26,44 @@
           <a href=""></a> <i class="fa-solid fa-circle-user"></i> Log in
         </li>
       </ul>
-      <p>Cart (0)</p>
+      <p onclick="openMenu()">Cart (0)</p>
+      <div id="overlay" class="overlay2" onclick="closeMenu()"></div>
+      <div id="slideMenu" class="slide-menu">
+          <div class="menu-header">
+              <span class="close" onclick="closeMenu()"><i class="fa-solid fa-chevron-right"></i></span>
+              <h2>Cart</h2>
+          </div>
+          <div class="menu-content">
+              <p>Cart is empty</p>
+          </div>
+      </div>
+      <div class="burgercont">
+        <div class="burger" id="burger">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
     </div>
+    <div class="burger">
+        <ul class="burger-menu" id="burger-menu">
+          <form class="search2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="my3" type="text" placeholder="Search..." />
+          </form>
+          <div class="myuser">
+            <li><a><i class="fa fa-user-circle"></i> Log In</a></li>
+          </div>
+            <li><a href="./shop.html">Shop All</a></li>
+            <li><a href="./story.html">Our Story</a></li>
+            <li><a href="./craft.html">Our Craft</a></li>
+            <li><a href="./card.html">Gift Card</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+    </div>
+     
   </header>
   <nav>
+    <a href="./index.html"><h1><i>adalene.</i></h1></a>
     <ul>
       <li><a href="./shop.html">Shop All</a></li>
       <li><a href="./story.html">Our Story</a></li>
@@ -58,6 +90,10 @@
         <p class="gridp">7 product</p>
       </div>
     </div>  
+    <div class="ttxttt2">
+      <h2 class="gridh1">Mini Leather</h2>
+      <p class="gridp">7 product</p>
+    </div>
     <div class="grid">
       <div class="item1">
         <img src="./images/019.jpg" alt="bags" />
@@ -135,7 +171,7 @@
   </footer>
   <p class="tttttt">©2035 by adalene. Powered and secured by Wix</p>
 </main>
-
+<script src="./main.js"></script>
     
 </body>
 </html>
